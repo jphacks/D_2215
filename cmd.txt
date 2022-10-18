@@ -1,0 +1,6 @@
+# docker-compose build
+# docker-compose run --rm react-app sh -c "yarn create react-app wadaihorider --template @chakra-ui/typescript"
+# docker-compose up
+# in container
+# yarn add firebase
+# yarn add firebase-tools

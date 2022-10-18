@@ -1,4 +1,4 @@
-# サンプル（プロダクト名）
+# わだいほりだー
 
 [![IMAGE ALT TEXT HERE](https://jphacks.com/wp-content/uploads/2022/08/JPHACKS2022_ogp.jpg)](https://www.youtube.com/watch?v=LUPQFB4QyVo)
 
@@ -38,3 +38,14 @@
 #### 製品に取り入れた研究内容（データ・ソフトウェアなど）（※アカデミック部門の場合のみ提出必須）
 * 
 * 
+
+### 起動方法
+:::note warn
+dockerによる仮想環境で開発しています。
+まずはdocker desktop等のインストールを行い、docker CLIを使用可能にしてください。
+:::
+
+1. `docker-compose build`によりimageを作成
+2. `docker-compose up -d --build`でコンテナ起動(初回はコンテナ作成、次回からはrebuildも兼ねてくれます。)
+3. `docker-compose run sh -c "yarn"`もしくは`(winpty) docker exec -it [CONTAINER_ID] sh`してからyarnを入力して必要パッケージをインストール。
+4. [localhost:3000](http://localhost:3000/)にアクセスしてサービスの起動を確認してください。
