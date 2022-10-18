@@ -40,10 +40,8 @@
 * 
 
 ### 起動方法
-:::note warn
-dockerによる仮想環境で開発しています。
-まずはdocker desktop等のインストールを行い、docker CLIを使用可能にしてください。
-:::
+**dockerによる仮想環境で開発しています。
+まずはdocker desktop等のインストールを行い、docker CLIを使用可能にしてください。**
 
 1. `docker-compose build`によりimageを作成
 2. `docker-compose up -d --build`でコンテナ起動(初回はコンテナ作成、次回からはrebuildも兼ねてくれます。)
