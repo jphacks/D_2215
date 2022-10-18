@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./reactApp:/usr/src/app
-    command: sh -c "cd react-sample && yarn start"
+    command: sh -c "cd wadaihorider && yarn start"
     ports:
       - "3000:3000"
     stdin_open: true 

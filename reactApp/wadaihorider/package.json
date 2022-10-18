@@ -1,9 +1,9 @@
 {
-  "name": "react-sample",
+  "name": "wadaihorider",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@chakra-ui/react": "^2.3.5",
+    "@chakra-ui/react": "^2.3.6",
     "@emotion/react": "^11.0.0",
     "@emotion/styled": "^11.0.0",
     "@testing-library/jest-dom": "^5.16.4",
