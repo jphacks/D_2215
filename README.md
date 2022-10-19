@@ -45,5 +45,5 @@
 
 1. `docker-compose build`によりimageを作成
 2. `docker-compose run react-app sh -c "cd wadaihorider && yarn"`で必要パッケージをインストール。
-3. `docker-compose up -d --build`でコンテナ起動(初回はコンテナ作成、次回からはrebuildも兼ねてくれます)。`docker-compose run react-app sh -c "cd wadaihorider && yarn start"`でもOK。
+3. `docker-compose up --build`でコンテナ起動。
 4. [localhost:3000](http://localhost:3000/)にアクセスしてサービスの起動を確認してください。
