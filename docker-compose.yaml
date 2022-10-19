@@ -9,4 +9,7 @@ services:
     command: sh -c "cd wadaihorider && yarn start"
     ports:
       - "3000:3000"
+    tty: true
+    environment:
+      - CHOKIDAR_USEPOLLING=true
     stdin_open: true 
