@@ -3,6 +3,8 @@
 [![IMAGE ALT TEXT HERE](https://jphacks.com/wp-content/uploads/2022/08/JPHACKS2022_ogp.jpg)](https://www.youtube.com/watch?v=LUPQFB4QyVo)
 
 ## 製品概要
+話題が尽きた時の
+
 ### 背景(製品開発のきっかけ、課題等）
 ### 製品説明（具体的な製品の説明）
 ### 特長
@@ -38,12 +40,3 @@
 #### 製品に取り入れた研究内容（データ・ソフトウェアなど）（※アカデミック部門の場合のみ提出必須）
 * 
 * 
-
-### 起動方法
-**dockerによる仮想環境で開発しています。
-まずはdocker desktop等のインストールを行い、docker CLIを使用可能にしてください。**
-
-1. `docker-compose build`によりimageを作成
-2. `docker-compose run react-app sh -c "cd wadaihorider && yarn"`で必要パッケージをインストール。
-3. `docker-compose up --build`でコンテナ起動。
-4. [localhost:3000](http://localhost:3000/)にアクセスしてサービスの起動を確認してください。

@@ -1,11 +1,12 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore";
+import { getFirestore } from "firebase/firestore"
+import { getAuth, GoogleAuthProvider, onAuthStateChanged, User } from "firebase/auth";
+import { useState } from "react"
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyDn5rrntS-BmpEHb3X7pNOCmwY8PbFFPV8",
   authDomain: "wadaihorider.firebaseapp.com",
@@ -18,6 +19,6 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
-
-export default db;
+export const db = getFirestore(app);
+export const provider = new GoogleAuthProvider();
+export const auth = getAuth(app);
