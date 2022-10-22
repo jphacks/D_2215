@@ -108,7 +108,7 @@ export const UserData = () => {
       {flag ? <Text textColor="red.400" fontSize="xl" bg="whiteAlpha.300" padding="10px" borderRadius="lg">共通のわだいがみつかりました！</Text> : <></>}
       <Box bg="whiteAlpha.100" padding="20px">
         {data.topics !== undefined ? 
-            <SimpleGrid columns={2} spacing={10} width="md">
+            <SimpleGrid columns={2} spacing={10} width="sm">
             {data.topics.map((topic: any, i: number) => (
               <Tpc isCommonTpc={showIdxTF[i]} topic={topic} i={i}/>
             ))}

@@ -48,8 +48,13 @@ export const AddTopic = () => {
             topics: data.topics,
             name: user.displayName,
           });
+        } else {
+          setDoc(doc(db, "users", user.uid), {
+            topics: [],
+            name: user.displayName,
+          });
         }
-        getDoc(doc(db, "users", user!.uid)).then((snap) => {
+        getDoc(doc(db, "users", user.uid)).then((snap) => {
           setData({ ...snap.data() });
         });
       }
