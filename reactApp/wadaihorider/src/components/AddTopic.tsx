@@ -45,12 +45,12 @@ export const AddTopic = () => {
         if (data.topics !== undefined) {
           data.topics.push(topic);
           setDoc(doc(db, "users", user.uid), {
-            topics: data.topics,
+            topics: data.topics.filter(Boolean),
             name: user.displayName,
           });
         } else {
           setDoc(doc(db, "users", user.uid), {
-            topics: [],
+            topics: [topic],
             name: user.displayName,
           });
         }
