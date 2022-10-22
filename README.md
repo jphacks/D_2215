@@ -1,6 +1,6 @@
 # わだいほりだー
 
-[![IMAGE ALT TEXT HERE](https://github.com/jphacks/D_2215/blob/master/d_2215.jpg)](https://www.youtube.com/watch?v=LUPQFB4QyVo)
+[![IMAGE ALT TEXT HERE](https://github.com/jphacks/D_2215/blob/master/d_2215.jpg)](https://youtu.be/kdsmcGzZQrU)
 
 ## 製品概要
 友人や、家族、初対面の方々などとの会話を行うとき、ふと話題が無くなること、ありませんか？
@@ -41,5 +41,5 @@ Webアプリであるため、現代社会ではどの端末からもアクセ�
 
 ### 独自技術
 #### ハッカソンで開発した独自機能・技術
-* 独自で開発したものの内容をこちらに記載してください
-* 特に力を入れた部分をファイルリンク、またはcommit_idを記載してください。
+* 話題をマッチングさせる仕組み
+* 

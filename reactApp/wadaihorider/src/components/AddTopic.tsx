@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Menu, MenuButton, MenuList, MenuItem, MenuDivider, Box, MenuGroup } from "@chakra-ui/react"
 import { ChevronDownIcon } from "@chakra-ui/icons";
 import { db, auth} from "../firebase"
