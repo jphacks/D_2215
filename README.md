@@ -41,5 +41,4 @@ Webアプリであるため、現代社会ではどの端末からもアクセ�
 
 ### 独自技術
 #### ハッカソンで開発した独自機能・技術
-* 話題をマッチングさせる仕組み
-* 
+* 話題をマッチングさせる仕組み(https://github.com/jphacks/D_2215/blob/master/reactApp/wadaihorider/src/components/UserData.tsx)
